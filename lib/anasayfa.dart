@@ -77,7 +77,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: Text("Türkçe",
                               style: TextStyle(
                                   fontSize: 20,
-                                  fontWeight: FontWeight.w100,
+                                  fontWeight: FontWeight.bold,
                                   color: Colors.white
                               ),),
 
@@ -99,7 +99,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: Text("Matematik",
                               style: TextStyle(
                                   fontSize: 20,
-                                  fontWeight: FontWeight.w100,
+                                  fontWeight: FontWeight.bold,
                                   color: Colors.white
                               ),),
 
@@ -121,7 +121,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: Text("Fen Bilimleri",
                               style: TextStyle(
                                   fontSize: 20,
-                                  fontWeight: FontWeight.w100,
+                                  fontWeight: FontWeight.bold,
                                   color: Colors.white
                               ),),
 
@@ -143,7 +143,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: Text("Sosyal Bilgiler",
                               style: TextStyle(
                                   fontSize: 20,
-                                  fontWeight: FontWeight.w100,
+                                  fontWeight: FontWeight.bold,
                                   color: Colors.white
                               ),),
 

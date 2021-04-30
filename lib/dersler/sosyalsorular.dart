@@ -103,6 +103,7 @@ class _SosyalSorularState extends State<SosyalSorular> {
     }
 
     return Scaffold(
+      backgroundColor: Colors.orange.shade300,
       appBar: AppBar(
         backgroundColor: Colors.red.shade400,
         title: Text(
@@ -136,8 +137,8 @@ class _SosyalSorularState extends State<SosyalSorular> {
                           begin: Alignment.topRight,
                           end: Alignment.bottomLeft,
                           colors: [
-                            Colors.purple[500],
-                            Colors.red[100],
+                            Colors.grey[500],
+                            Colors.yellow[300],
                             Colors.purple[500],
                           ])),
                   child: Text(

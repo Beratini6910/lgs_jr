@@ -103,6 +103,7 @@ class _MatematikSorularState extends State<MatematikSorular> {
     }
 
     return Scaffold(
+      backgroundColor: Colors.deepPurple.shade400,
       appBar: AppBar(
         backgroundColor: Colors.red.shade400,
         title: Text(
@@ -136,9 +137,9 @@ class _MatematikSorularState extends State<MatematikSorular> {
                           begin: Alignment.topRight,
                           end: Alignment.bottomLeft,
                           colors: [
-                            Colors.purple[500],
-                            Colors.red[100],
-                            Colors.purple[500],
+                            Colors.yellow[500],
+                            Colors.purple[300],
+                            Colors.green[500],
                           ])),
                   child: Text(
                     sorular[soru]['soru'],

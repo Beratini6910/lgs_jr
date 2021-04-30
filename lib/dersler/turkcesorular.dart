@@ -103,6 +103,7 @@ class _TurkceSorularState extends State<TurkceSorular> {
     }
 
     return Scaffold(
+      backgroundColor: Colors.green.shade200,
       appBar: AppBar(
         backgroundColor: Colors.red.shade400,
         title: Text("Türkçe Testi",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
@@ -129,9 +130,9 @@ class _TurkceSorularState extends State<TurkceSorular> {
                           begin: Alignment.topRight,
                           end: Alignment.bottomLeft,
                           colors: [
-                            Colors.purple[500],
-                            Colors.red[100],
-                            Colors.purple[500],
+                            Colors.blue[500],
+                            Colors.yellow[100],
+                            Colors.red[500],
                           ])
                   ),
                   child: Text(

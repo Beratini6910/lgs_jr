@@ -171,7 +171,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
             ),
 
             ElevatedButton(
-              onPressed: _kisayol,
+              onPressed: _hakkindayagit,
               child: Text(
                 "Hakkında",
                 style: TextStyle(
@@ -187,19 +187,12 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
         ));
   }
 
-  void _kisayol() {
-    var data = [];
-    String kullaniciAdi="KullaniciAdi",email="Email",sifre="Sifre";
-
-    data.add(kullaniciAdi);
-    data.add(email);
-    data.add(sifre);
+  void _hakkindayagit() {
     Navigator.push(
         context,
         MaterialPageRoute(
             builder: (context) => Hakkinda(),
             settings: RouteSettings(
-              arguments: data,
             )));
 
   }

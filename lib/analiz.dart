@@ -55,6 +55,7 @@ class _BitirState extends State<Bitir> {
     }
     ;
     return Scaffold(
+      backgroundColor: Colors.grey,
         body: Center(
             child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,

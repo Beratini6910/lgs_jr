@@ -103,6 +103,7 @@ class _FenSorularState extends State<FenSorular> {
     }
 
     return Scaffold(
+      backgroundColor: Colors.blue.shade200,
       appBar: AppBar(
         backgroundColor: Colors.red.shade400,
         title: Text(
@@ -136,7 +137,7 @@ class _FenSorularState extends State<FenSorular> {
                           begin: Alignment.topRight,
                           end: Alignment.bottomLeft,
                           colors: [
-                            Colors.purple[500],
+                            Colors.red[500],
                             Colors.red[100],
                             Colors.purple[500],
                           ])),
